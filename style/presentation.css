@@ -1,0 +1,28 @@
+#presentation{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+#presentation_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#presentation_content h1{
+    color: #ffffff;
+    font-family: "League Gothic", sans-serif;
+    font-size: 96px;
+    font-weight: 400;
+}
+
+#presentation_content h2{
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 10px;
+}

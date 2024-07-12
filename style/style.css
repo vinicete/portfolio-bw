@@ -1,0 +1,128 @@
+header{
+    height: 100px;
+    padding: 40px 8%;
+}
+
+header nav{
+    padding-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+
+}
+
+.btn-out{
+    background: none;
+    outline: none;
+    border: none;
+
+}
+
+#logo_out{
+    font-size: 2rem;
+
+}
+
+#home{
+    min-height: calc(100vh - 200px);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+#home_content{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+#home_links-main{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+#home_links{
+    position: relative;
+    padding: 20px;
+}
+
+#home_links-main a{
+    font-size: 64px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+    transition: transform 0.3s;
+
+}
+
+#home_links-main a:hover{
+    transform: scale(1.1);
+
+}
+
+#home_links-menu{
+    position: absolute;
+    top: 42px;
+    left: -64px;
+    transform: rotate(270deg) ;
+    
+}
+
+#home_links-menu a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000;
+}
+
+#home_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 15px;
+    padding-bottom: 27px;
+}
+
+#home_info p{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.socials{
+    display: flex;
+    gap: 26px;
+    padding-top: 16px;
+}
+
+.socials a{
+    color: #000000;
+}
+
+#twitter_logo{
+    transition:0.5s;
+}
+#twitter_logo:hover{
+    color: #1d9bf0;
+}
+
+#insta_logo{
+    transition:0.5s;
+}
+#insta_logo:hover{
+    background-image: linear-gradient(#f9ce34,#ee2a7b,#6228d7);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+
+}
+
+.fa-brands{
+    font-size: 1.4rem
+}
+
+
